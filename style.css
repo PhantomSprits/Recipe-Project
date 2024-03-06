@@ -17,6 +17,19 @@ h2 {
 a {
     color: antiquewhite;
 }
+ol li {
+    background-color:rgb(255, 251, 240);
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #252525;
+    margin-bottom: 18px;
+}
+ul li {
+    margin-bottom: 5px;
+}
 
 /* ---------- basic classes ---------- */
 
@@ -29,18 +42,16 @@ a {
     border-radius: 25px;
     background-color: rgb(255, 251, 240);
     margin-top: 20px;
-}
-.bar {
-    background-color:rgb(255, 251, 240);
-    border-radius: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-style: solid;
-    border-width: thin;
-    border-color: #252525
+    padding: 8px 10px 8px 10px;
 }
 .recipes {
     text-align: center;
+    border: solid;
+    border-color:#252525;
+    background-color: rgb(255, 251, 240);
+    padding: 5px;
+    margin: 0 252px 25px 252px;
+    border-radius: 50px;
 }
 
 /* ---------- img classes ---------- */
@@ -64,7 +75,7 @@ a {
     height: 339px;
     width: 225px;
     border-radius: 50px;
-    margin: -57px 0 -57px 0;
+    margin: -57px 57px -57px 57px;
 }
 .ramenDisplay {
     transform: rotate(270deg);
